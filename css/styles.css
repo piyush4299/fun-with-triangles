@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+}
+
+.header{
+    padding: 0.5rem;
+    background-color: gray;
+}
+
+.header > .heading{
+    text-align: left;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar > a{
+    padding: 1rem 0.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.isTrianleInput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0rem;
+}
+
+.isTrianleInput > input{
+    padding: 0.8rem;
+    text-align: center;
+    border-radius: 7%;
+    outline: none;
+    border: 1px solid gray;
+    margin: 1rem 0rem;
+}
+
+.isTrianleInput > .checkBtn{
+    padding: 0.8rem;
+    text-align: center;
+    border-radius: 7%;
+    outline: none;
+    border: 1px solid gray;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.outputSection {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+.detailSection{
+    text-align: center;
+    padding: 2rem 0rem 0rem 0rem;
+    font-size: 1.1rem;   
+}
+
+.hypotenuseOutput{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.areaOfTriangleInput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0rem;
+}
+
+.areaOfTriangleInput > input{
+    padding: 0.8rem;
+    text-align: center;
+    border-radius: 7%;
+    outline: none;
+    border: 1px solid gray;
+    margin: 1rem 0rem;
+}
+
+.areaOfTriangle{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.areaOfTriangleInput > .checkBtn{
+    padding: 0.8rem;
+    text-align: center;
+    border-radius: 7%;
+    outline: none;
+    border: 1px solid gray;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.submitBtn{
+    padding: 0.8rem;
+    text-align: right;
+    border-radius: 7%;
+    outline: none;
+    border: 1px solid gray;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.quizSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 0rem;
+}
+
+.question{
+    text-align: center;
+    padding: 0.5rem 0rem;
+}
+
+.answers{
+    text-align: center;
+}
+
+.answers > label{
+    padding: 0rem 0.3rem;
+}
+
+.quizResult{
+    padding: 1rem 0rem;
+    text-align: center;
+    font-size: 1rem;
+}

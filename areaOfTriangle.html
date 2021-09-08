@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUN WITH TRIANGLES</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <script src="./js/index.js"></script>
+</head>
+<body>
+    <div class="header">
+        <p class="heading">FUN WITH MATHS</p>
+        <div class="navbar">
+            <a href="./quiz.html">Quiz</a>
+            <a href="./index.html">Is Triangle?</a>
+            <a href="./isHypotenuse.html">Hypotenuse</a>
+            <a href="./areaOfTriangle.html">Area of Triangle</a>
+        </div>
+    </div>
+
+    <div class="detailSection">
+        <p>Enter three sides of triangle and get area using Heron's formula</p>
+    </div>
+    <div class="areaOfTriangleInput">
+        <input class="firstSide" type="number" placeholder="Enter First Side"/><br />
+        <input class="secondSide" type="number" placeholder="Enter Second Side"/><br />
+        <input class="thirdSide" type="number" placeholder="Enter Third Side"/><br />
+        <button class="checkBtn" onclick="calculateAreaOfTriangle()">Calculate Area</button>
+    </div>
+
+    <p class="areaOfTriangle"></p>
+
+</body>
+</html>
